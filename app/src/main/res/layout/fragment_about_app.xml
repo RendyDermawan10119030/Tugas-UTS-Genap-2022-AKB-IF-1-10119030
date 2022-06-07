@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:background="#d2dae2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="times new roman"
+        android:text="NoteApp"
+        android:textColor="#2c2c54"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:id="@+id/applogo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/applogo" />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/applogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Tentang Aplikasi :"
+        android:textColor="#2c2c54"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Aplikasi Catatan Harian Inovatif !"
+        android:textColor="#1e272e"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judul"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#a4b0be"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Menyimpan informasi anda dengan mudah"
+            android:textColor="#1e272e"
+            android:textSize="15dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="memberikan pengalaman terbaik dengan perlindungan informasi terandalkan"
+            android:textColor="#1e272e"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="Aplikasi ini dibuat untuk memenuhi tugas pengganti UTS Mata Kuliah Aplikasi Komputasi Bergerak"
+            android:textColor="#1e272e"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/identitas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10119030 Rendy Dermawan IF-1"
+            android:textSize="14dp"
+            android:fontFamily="times new roman"
+            android:textColor="#1e272e"
+            />
+
+        <TextView
+            android:id="@+id/tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 Juni 2022"
+            android:fontFamily="times new roman"
+            android:textSize="14dp"
+            android:textColor="#1e272e"
+            android:layout_marginLeft="30dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

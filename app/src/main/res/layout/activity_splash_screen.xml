@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity"
+    android:background="#9b59b6"
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/applogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="times new roman"
+        android:gravity="center"
+        android:text="NoteApp"
+        android:textColor="#ffff"
+        android:textSize="35dp" />
+    <LinearLayout
+        android:id="@+id/identitas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10119030 Rendy Dermawan IF-1"
+            android:textSize="14dp"
+            android:fontFamily="times new roman"
+            android:textColor="#1e272e"
+            />
+
+        <TextView
+            android:id="@+id/tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 Juni 2022"
+            android:fontFamily="times new roman"
+            android:textSize="14dp"
+            android:textColor="#1e272e"
+            android:layout_marginLeft="30dp"
+            />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/brand"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/brand"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp"
+        android:text="from"
+        android:textColor="#ffff"
+        android:fontFamily="times new roman"
+        android:textSize="15dp" />
+</RelativeLayout>

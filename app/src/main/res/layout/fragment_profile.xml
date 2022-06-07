@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="#d2dae2"
+    >
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="times new roman"
+        android:gravity="center"
+        android:text="Profile Mahasiswa"
+        android:textColor="#2c2c54"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/wajah"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/judul"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/profile" />
+
+    <LinearLayout
+        android:id="@+id/datadiri"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wajah"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:background="#a4b0be"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="NIM : 10119030"
+            android:textColor="#1e272e"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nama : Rendy Dermawan"
+            android:textColor="#1e272e"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Kelas : IF-1"
+            android:layout_marginBottom="20dp"
+            android:textColor="#1e272e"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/datadiri"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="rendy.dermawan2961@gmail.com"
+        android:textColor="#1e272e"
+        android:textSize="19dp" />
+
+</RelativeLayout>
